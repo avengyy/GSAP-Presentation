@@ -103,3 +103,8 @@ However they accept an additional `staggerDuration` args after `vars` as they ar
 ## Demo
 
 Open `demo-1.html`
+
+## References
+
+[GSAP Documentation](https://greensock.com/docs)
+[Easing Visualizer](https://greensock.com/ease-visualizer)
