@@ -106,5 +106,5 @@ Open `demo-1.html`
 
 ## References
 
-[GSAP Documentation](https://greensock.com/docs)
-[Easing Visualizer](https://greensock.com/ease-visualizer)
+- [GSAP Documentation](https://greensock.com/docs)
+- [Easing Visualizer](https://greensock.com/ease-visualizer)
