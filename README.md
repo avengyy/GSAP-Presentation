@@ -102,4 +102,4 @@ However they accept an additional `staggerDuration` args after `vars` as they ar
 
 ## Demo
 
-Open `index.html`
+Open `demo-1.html`
