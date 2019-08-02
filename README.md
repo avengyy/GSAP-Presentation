@@ -100,9 +100,13 @@ However they accept an additional `staggerDuration` args after `vars` as they ar
 
 > Note: The stagger methods are also exclusive to TweenMax bundle only.
 
-## Demo
+## Demostration
 
-Open `demo-1.html`
+1. Clone repository using `git clone`
+
+2. Open `demo-1.html`.
+
+3. Relative logic of animations are in `js/` folder.
 
 ## References
 
