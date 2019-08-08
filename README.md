@@ -8,12 +8,13 @@ The browsing experience were significantly improved when a website is not just p
 
 ## Libraries
 
-For demostration purpose, the following 2 libraries.
+Today we will be talking about Animation Libraries, what are they and how to use them.
+
+As time is constrained, I would only be introducting one of JS Animation Libraries out there, and it is
 
 - [GSAP](https://greensock.com/gsap) (**G**reen**S**ock **A**nimation **P**latform)
-- [ScrollMagic.js](https://scrollmagic.io/)
 
-With a brief introduction for the libraries.
+With a brief introduction for the library itself.
 
 GSAP is one the of the most used professional grade animating libraries out there.
 
@@ -23,11 +24,26 @@ TweenMax is the largest bundle as it includes many other GSAP Plugins in one, wi
 
 ![TweenMax](/img/gsap.png)
 
-ScrollMagic is a library that helps you easily control animations based on user's current scroll position.
-
-Its also perfect library to pin elements at a specific set of scroll position either for a limited amount of scroll progress or indefinite
+GSAP offers wide variety of modules for how you want your HTML elements to animate about, down to ever like Timeline, Easing, Staggering etc.
 
 ### Installation
+
+### Using NPM
+
+```bash
+npm install gsap
+```
+
+```javascript
+// Typical Import
+import { TweenMax } from 'gsap/all';
+
+// or get the parts that aren't included inside TweenMax
+import Draggable from 'gsap/Draggable';
+import ScrollToPlugin from 'gsap/ScrollToPlugin';
+```
+
+More can be read [here](https://github.com/greensock/GreenSock-JS)
 
 #### Using CDN
 
@@ -37,13 +53,7 @@ GSAP
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 ```
 
-ScrollMagic
-
-```html
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-```
+In my example, I would be using a CDN for a quick and easy setup 😄
 
 ## Concepts of Animation
 
@@ -54,15 +64,14 @@ Animations are always breakdown into 4 parts
 3. Duration of Animation
 4. Timing Function
 
-The Starting Position can be defined in Styling (CSS) or by using GSAP's Animating API.
+The Starting Position can be defined in your stylesheet (CSS) or by using GSAP's in-built method `.set()`.
 
-The Ending Position is where you would like the element to be after the animation has been played, it could also be defined in Styling (CSS) as well.
-
-> They both depends on what method you use in the GSAP library
+The Ending Position is where you would like the element to be after the animation has been played.
+It can be defined in your stylesheet (CSS) or by using GSAP's in-built method `.set()`.
 
 The Duration defines how long the transition between Starting Position and Ending Position should be.
 
-The Timing function defines the motion of an animation, it is usually defined in a Cubic Beizer Curve.
+The Timing function defines the motion of an animation, it is usually defined in a Cubic Beizer Curve or by using `EasePack` provided by GSAP.
 
 ## How to use TweenMax
 
@@ -100,7 +109,9 @@ However they accept an additional `staggerDuration` args after `vars` as they ar
 
 > Note: The stagger methods are also exclusive to TweenMax bundle only.
 
-## Demostration
+## Demonstration
+
+There are several demonstrations in the project folder, you can get started quicky by following the steps below.
 
 1. Clone repository using `git clone`
 
