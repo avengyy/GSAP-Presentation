@@ -30,9 +30,13 @@ GSAP offers wide variety of modules for how you want your HTML elements to anima
 
 ### Using NPM
 
+Install GSAP as NPM package
+
 ```bash
 npm install gsap
 ```
+
+Import in JavaScript file
 
 ```javascript
 // Typical Import
@@ -45,7 +49,7 @@ import ScrollToPlugin from 'gsap/ScrollToPlugin';
 
 More can be read [here](https://github.com/greensock/GreenSock-JS)
 
-#### Using CDN
+### Using CDN
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
