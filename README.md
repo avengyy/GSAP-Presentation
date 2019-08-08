@@ -26,7 +26,7 @@ TweenMax is the largest bundle as it includes many other GSAP Plugins in one, wi
 
 GSAP offers wide variety of modules for how you want your HTML elements to animate about, down to ever like Timeline, Easing, Staggering etc.
 
-### Installation
+## Installation
 
 ### Using NPM
 
@@ -46,8 +46,6 @@ import ScrollToPlugin from 'gsap/ScrollToPlugin';
 More can be read [here](https://github.com/greensock/GreenSock-JS)
 
 #### Using CDN
-
-GSAP
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
